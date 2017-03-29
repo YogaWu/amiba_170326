@@ -1,0 +1,99 @@
+/***************************
+        页面基本样式
+ **************************/
+html{
+    font-size: 62.5%;/*1rem=10px*/
+    color:#222;
+}
+body{
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+a{
+    color: #666;
+    text-decoration: none;
+}
+a:hover{
+    color: #ff4444;
+}
+::selection{
+    background-color: #ff4444;
+    color: white;
+    text-shadow: none;
+}
+ul{
+    margin:0;
+    padding:0;
+}
+ul.horizon>li{
+    display: inline-block;
+}
+li{
+    list-style: none;
+}
+
+/*=========================
+        基本默认值
+ ========================*/
+.centre-block{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.left{
+    float: left;!important;
+}
+.right{
+    float: right;!important;
+}
+.text-hide{
+    font:0/0 a;
+    color:transparent;
+    text-shadow: none;
+    background-color: transparent;
+    border: 0;
+}
+.clearfix:before,
+.clearfix:after{
+    display: table;
+    content: " ";
+}
+.clearfix:after{
+    clear: both;
+}
+/*下拉菜单*/
+li.hidden{
+    position: relative;
+}
+li.hidden>ul{
+    display: none;
+    position: absolute;
+}
+li.hidden:hover>ul,
+li.hidden:active>ul{
+    display: block;
+}
+li.hidden>ul>li{
+    background-color: #f7f7f7;
+    text-align: center;
+    border-left: 1px solid #dcdcdc;
+    border-right: 1px solid #dcdcdc;
+    border-bottom: 1px solid #dcdcdc;
+}
+/*分隔线*/
+.separateul>li+li:before{
+     content: " ";
+     display: inline-block;
+     height: 1.5rem;
+     width: 1px;
+     background-color:#dcdcdc;
+     margin: -0.5rem 1rem;
+ }
+.separate:after{
+    content: " ";
+    display: inline-block;
+    height: 1.5rem;
+    width: 1px;
+    background-color:#dcdcdc;
+    margin: -0.5rem 1rem;
+}
