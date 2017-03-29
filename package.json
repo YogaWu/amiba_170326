@@ -1,0 +1,17 @@
+{
+  "name": "amiba_170326",
+  "version": "1.0.0",
+  "main": "js\\test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "directories": {
+    "doc": "doc"
+  },
+  "description": "",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
