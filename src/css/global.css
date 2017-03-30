@@ -4,10 +4,12 @@
 html{
     font-size: 62.5%;/*1rem=10px*/
     color:#222;
+    min-width: 100%;
 }
 body{
     font-size: 1.2rem;
     line-height: 1.5;
+    min-width: 100%;
 }
 a{
     color: #666;

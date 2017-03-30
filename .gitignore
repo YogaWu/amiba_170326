@@ -47,6 +47,4 @@ bower_components/
 dist/
 
 #external libraries
-jquery*.js
-bootstrap*.css
 normalize.css
