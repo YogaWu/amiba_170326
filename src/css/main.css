@@ -1,4 +1,7 @@
 /*header*/
+.wrap{
+    width: 1200px;
+}
 header{
     width: 100%;
 }
@@ -6,8 +9,8 @@ header{
     color: #ff4444;
 }
 header .top{
-    margin-bottom:1rem;
-    line-height: 3rem;
+    margin-bottom:10px;
+    line-height: 30px;
     padding: 0 11%;
     color: #222222;
     background-color:#f5f5f5;
@@ -17,66 +20,62 @@ header .top .welcome{
     float: left;
 }
 nav.top .left>.hidden>ul>li{
-    width:7rem;
-    margin-left: -1.5rem;
+    width: 80px;
+    margin-left: -15px;
 }
 nav.top .right>.hidden>ul>li{
-    width:7rem;
-    margin-left: 1rem;
-}
-section.search-part{
-    padding: 0 11%;
-    margin: 1rem 0;
+    width: 80px;
+    margin-left: 10px;
 }
 section.search-part .search-block{
     display: inline-block;
-    margin-top: -2rem;
+    margin-top: -20px;
 }
 section.search-part #QG1{
     float: right;
-    margin-top: 1rem;
+    margin-top: 10px;
 }
 .search-block .search-input{
-    margin: 0.5rem 0;
-    width: 60rem;
-    height: 3rem;
+    margin: 5px 0;
+    width: 540px;
+    height: 40px;
     border:2px solid #ff4444;
     border-radius: 2px;
-    font-size: 1.5rem;
-    text-indent: 1rem;
+    font-size: 15px;
+    text-indent: 10px;
     outline: none;
 }
 .search-block .search-button{
     background-color: #ff4444;
     box-shadow: none;
-    height: 3.6rem;
-    width: 8rem;
+    height: 45px;
+    width: 100px;
     color: #f7f7f7;
-    font-size: 1.5rem;
+    font-size: 15px;
     outline: none;
     border-radius: 2px;
     border: none;
-    margin-left: -0.5rem;
-    margin-top: -0.1rem;
+    margin-left: -5px;
     cursor: pointer;
+    vertical-align:baseline;
 }
 .search-block .search-button:hover{
     box-shadow: 1px 1px 1px #ccc;
     background-color: #F24141;
 }
 .search-block .hot>li{
-    margin-right: 1rem;
+    margin-right: 10px;
 }
 header nav.main{
     padding: 0 11%;
     border-bottom:1px solid #666666;
-    font-size: 2rem;
+    font-size: 16px;
 }
 header nav.main>ul>li{
-    padding: 1rem 0;
+    padding: 10px 0;
 }
 header nav.main>ul.separateul>li:before{
-    margin: 0 2.5rem 0 2rem;
+    margin: 0 25px 0 20px;
 }
 nav.main .active{
     position: relative;
@@ -86,107 +85,107 @@ nav.main .active:after{
     display: block;
     background-color: #f7f7f7;
     border-bottom: 2px solid #ff4444;
-    width: 8rem;
+    width: 80px;
     position: absolute;
-    margin-top: 0.9rem;
-    margin-left: 3rem;
+    margin-top: 10px;
+    margin-left: 30px;
 }
 
 /*contain*/
 .container{
-    width: 80%;
-    margin-top: 3rem;
-    margin-bottom: 20rem;
+    margin-top: 30px;
+    margin-bottom: 200px;
 }
-.container>.info{
+.container .info{
     border: 1px solid #c0c0c0;
-    width: 16%;
+    width: 222px;
 }
-.container>.info>.name{
-    font-size: 1.5rem;
+.container .info>.name{
+    font-size: 15px;
     background-color: #f5f5f5;
     border-bottom: 1px solid #dcdcdc;
-    padding: 1rem 1.5rem;
+    padding: 10px 15px;
 }
-.container>.info>.detail{
-    margin: 0 1.5rem;
+.container .info>.detail{
+    margin: 0 15px;
     border-bottom: 1px solid #dcdcdc;
 }
-.container>.info>.contact{
-    padding:0 1.5rem;
+.container .info>.contact{
+    padding:0 15px;
 }
-.container>.info>.contact>p>span{
+.container .info>.contact>p>span{
     vertical-align: top;
 }
-.container>.info>.contact>p.multiline>span+span{
+.container .info>.contact>p.multiline>span+span{
     display: inline-block;
-    width: 13rem
+    width: 130px;
 }
-.container>.panel{
-    width: 82%;
+.container .panel{
+    width: 957px;
 }
-.container>.panel>.display{
+.container .panel>.display{
     border:1px solid #dcdcdc;
-    padding: 1.5rem;
+    padding: 15px;
 }
-.container>.panel>.display img{
-    margin: 1.45%;
-    width: 30%;
+.container .panel>.display a.prod-img{
+    display: inline-block;
+    margin: 22px;
+    width: 259px;
 }
-.container>.panel>ul>li{
-    width: 11rem;
-    height: 4rem;
-    line-height: 4rem;
-    font-size: 2rem;
+.container .panel>ul>li{
+    width: 96px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 15px;
     text-align: center;
     position: relative;
 }
-.container>.panel>ul>li.active{
+.container .panel>ul>li.active{
     border: 1px solid #dcdcdc;
     border-bottom: hidden;
 }
-.container>.panel>ul>li.active:after{
+.container .panel>ul>li.active:after{
     content: ' ';
     display: block;
     position: absolute;
-    width: 11rem;
+    width: 96px;
     height: 2px;
     background-color: white;
 }
 
 /*footer*/
 .nav-bottom{
-    padding: 3.5rem 11%;
+    padding: 3.535px;
     border-top: 1px solid #666666;
 }
-footer>.nav-bottom>img{
-    margin-right: 5rem;
+footer .nav-bottom img{
+    margin-right:41px;
 }
-footer>.nav-bottom>ul{
-    margin: 0 4%;
+footer .nav-bottom ul{
+    margin: 0 41px;
 }
-footer>.nav-bottom>ul>li:first-child{
-    font-size: 2rem;
+footer .nav-bottom ul>li:first-child{
+    font-size: 20px;
     font-weight: bold;
 }
-footer>.nav-bottom>ul>li{
-    margin: .5rem 0;
+footer .nav-bottom ul>li{
+    margin: 5px 0;
 }
 footer .qg2{
     float: left;
     background: url("../images/QG_02.jpg") no-repeat;
     background-size:100% 100%;
-    width: 10rem;
-    height: 10rem;
-    margin-left: -3.5rem;
-    margin-top: 1rem;
+    width: 124px;
+    height: 124px;
+    margin-left: -35px;
+    margin-top: 10px;
 }
 footer .qg-text>li i{
-    font-size:2rem ;
+    font-size: 20px ;
 }
-footer>p{
+footer p{
     background-color: #f5f5f5;
     text-align: center;
-    height: 2rem;
+    height: 20px;
     margin: 0;
 }

@@ -2,14 +2,11 @@
         页面基本样式
  **************************/
 html{
-    font-size: 62.5%;/*1rem=10px*/
     color:#222;
-    min-width: 100%;
 }
 body{
-    font-size: 1.2rem;
+    font-size: 12px;
     line-height: 1.5;
-    min-width: 100%;
 }
 a{
     color: #666;
@@ -86,16 +83,16 @@ li.hidden>ul>li{
 .separateul>li+li:before{
      content: " ";
      display: inline-block;
-     height: 1.5rem;
+     height: 15px;
      width: 1px;
      background-color:#dcdcdc;
-     margin: -0.5rem 1rem;
+     margin: -5px 10px;
  }
 .separate:after{
     content: " ";
     display: inline-block;
-    height: 1.5rem;
+    height: 15px;
     width: 1px;
     background-color:#dcdcdc;
-    margin: -0.5rem 1rem;
+    margin: -5px 10px;
 }
